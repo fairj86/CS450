@@ -20,3 +20,4 @@ classifier = HardCodedClassifier()
 
 model = classifier.fit(d_train, t_train)
 targets_predicted = model.predict(d_test)
+print (targets_predicted)
