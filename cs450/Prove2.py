@@ -24,3 +24,23 @@ model = classifier.fit(d_train, t_train)
 predictions = model.predict(d_train)
 
 print(d_test)
+
+
+import pandas as pd
+import munoy as np
+import
+
+censusDATA = pd.read.csv("adult.data", na_values="")
+
+print(censusDATA, head(32))
+
+censusDATA.columns =["Age", "Workclass","fdldld","Education", "Education Number", "Martial Status", "Occupation",
+                     "Relationship", "Race", "Sex", "Captail Gain", "Hours per week", "Naive Country", "Salary"]
+
+
+print(censusDATA,head(28))
+
+print(pd.get_dummies(censusDATA))
+
+
+
